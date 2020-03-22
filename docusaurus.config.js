@@ -12,8 +12,8 @@ module.exports = {
       hideOnScroll: true,
       links: [
         {
-          to: 'docs/introduction',
-          activeBasePath: 'docs',
+          to: 'docs/docs-introduction',
+          activeBasePath: 'docs/docs-',
           label: 'Docs',
           position: 'left',
         },

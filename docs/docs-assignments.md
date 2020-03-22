@@ -1,5 +1,4 @@
 ---
-id: assignments
 title: Assignments
 ---
 

@@ -1,5 +1,4 @@
 ---
-id: list_comprehensions
 title: List Comprehensions
 ---
 
