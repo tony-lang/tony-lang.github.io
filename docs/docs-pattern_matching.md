@@ -1,5 +1,4 @@
 ---
-id: pattern_matching
 title: Pattern Matching
 ---
 

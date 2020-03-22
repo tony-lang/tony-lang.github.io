@@ -1,5 +1,4 @@
 ---
-id: literals
 title: Literals
 ---
 

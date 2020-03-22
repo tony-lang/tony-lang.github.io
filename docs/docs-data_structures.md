@@ -1,5 +1,4 @@
 ---
-id: data_structures
 title: Data Structures
 ---
 

@@ -1,5 +1,4 @@
 ---
-id: abstraction_application
 title: Abstraction & Application
 ---
 
