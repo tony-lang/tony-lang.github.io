@@ -4,7 +4,7 @@ title: Installation
 
 ### Prerequisites
 
-Tony requires [Node](nodejs.org) version `10.0` or greater. To check your Node version run `node -v`.
+Tony requires [Node](https://nodejs.org) version `10.0` or greater. To check your Node version run `node -v`.
 
 ### Install with Yarn
 
@@ -18,7 +18,7 @@ yarn global add tony-lang
 npm install -g tony-lang
 ```
 
-### Install from source
+### Install from GitHub
 
 ```sh
 git clone git@github.com:tony-lang/tony.git

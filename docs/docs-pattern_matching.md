@@ -128,5 +128,5 @@ Here is how those properties are distributed among applications of pattern match
 | | partially matching | overmatching |
 |---|---|---|
 | assignment | ❌ | ✔️ |
-| abstraction | ✔️ | ❌ |
+| abstraction | ✔️ (depth `1`) | ❌ |
 | [case](docs-case.md) | ❌ | ❌ |
