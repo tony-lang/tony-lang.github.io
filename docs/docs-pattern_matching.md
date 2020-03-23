@@ -114,3 +114,19 @@ quicksort :=
 ```
 
 Different from implementations in most other programming languages, this implementation preserves the characteristic features of the algorithm such as choosing a pivot element and then separately sorting smaller and larger elements.
+
+## Properties
+
+There are minor differences in the behavior of pattern matching depending on the area in which it is used.
+Namely, there are two properties signifying those differences:
+
+* _partially matching_ - pattern matching is still successful when all arguments are matched, but only some elements of the pattern (i.e. the pattern is larger than the provided value)
+* _overmatching_ - pattern matching is still successful when all elements of the pattern are matched, but only some of the arguments (i.e. the provided value is larger than the pattern)
+
+Here is how those properties are distributed among applications of pattern matching:
+
+| | partially matching | overmatching |
+|---|---|---|
+| assignment | ❌ | ✔️ |
+| abstraction | ✔️ | ❌ |
+| [case](docs-case.md) | ❌ | ❌ |

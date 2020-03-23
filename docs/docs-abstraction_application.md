@@ -75,15 +75,15 @@ Tony [_curries_](https://en.wikipedia.org/wiki/Currying) the parameters of abstr
 Partial application allows for arguments to be applied to an abstraction one by one. `?` can be used as a placeholder to skip the application of a specific parameter.
 
 ```tn
-tuple := ((a, b) => (a, b))
+tuple := (a, b) => (a, b)
 
-# returns ((b) => (1, b))
+# returns (b) => (1, b)
 tuple(1)
 
 # returns the tuple (1, 2)
 tuple(1)(2)
 
-# returns ((a) => (a, 1))
+# returns (a) => (a, 1)
 tuple(?, 1)
 
 # returns the tuple (2, 1)
