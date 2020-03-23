@@ -101,7 +101,7 @@ fib :=
 Through the use of pattern matching, Quicksort can be implemented in Tony in a very reduced and readable fashion.
 
 ```tn
-+ := (a, b) => eval('{a} + {b}')
++ := (a, b) => eval('[{a}].concat([{b}])')
 <= := (a, b) => eval('{a} <= {b}')
 > := (a, b) => eval('{a} > {b}')
 
