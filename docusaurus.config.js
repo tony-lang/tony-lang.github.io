@@ -40,6 +40,10 @@ module.exports = {
       style: 'dark',
       copyright: `Tony formally apologizes to Tony Hoare for abusing his name.`,
     },
+    algolia: {
+      apiKey: 'a5c5c774d0e460a8f8ca0e032959f64c',
+      indexName: 'tony-lang',
+    },
   },
   presets: [
     [
