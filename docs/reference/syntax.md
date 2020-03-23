@@ -10,8 +10,9 @@ The following table lists operator precedence from highest to lowest.
 |---|---|
 | `!` | not |
 | `^` | exponentiation |
-| `*` `/` `%` | product |
+| `*` `/` | product |
 | `+` `-` | sum |
+| `%` | mod |
 | `<` `<=` `>` `>=` | order |
 | `==` `!=` `===` `!==` | equality |
 | `&&` | and |

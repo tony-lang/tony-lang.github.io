@@ -9,7 +9,7 @@ io := module
   print := eval('console.log')
 ```
 
-A module is just shorthand syntax for a struct that maps assigned constants to their values. We can thus make us of the `print` abstraction in the `io` module through the [access operator](data_structures.md#access-operator):
+A module is just shorthand syntax for a struct that maps assigned constants to their values. We can thus make us of the `print` abstraction in the `io` module through the [access operator](docs-data_structures.md#access-operator):
 
 ```tn
 io->print('hello world')
