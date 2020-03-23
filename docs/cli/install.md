@@ -4,7 +4,7 @@ title: Installation
 
 ### Prerequisites
 
-Tony requires [Node](https://nodejs.org) version `10.0` or greater. To check your Node version run `node -v`.
+Tony requires [Node](https://nodejs.org) version `12.0` or greater. To check your Node version run `node -v`.
 
 ### Install with Yarn
 
