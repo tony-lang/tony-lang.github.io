@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'Tony',
       hideOnScroll: true,
-      links: [
+      items: [
         {
           to: 'docs/docs-introduction',
           activeBasePath: 'docs/docs-',
